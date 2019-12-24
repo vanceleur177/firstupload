@@ -1,0 +1,6 @@
+C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.DL\bin\Debug\netstandard2.0\HRIS.DL.deps.json
+C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.DL\bin\Debug\netstandard2.0\HRIS.DL.dll
+C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.DL\obj\Debug\netstandard2.0\HRIS.DL.csprojAssemblyReference.cache
+C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.DL\obj\Debug\netstandard2.0\HRIS.DL.csproj.CoreCompileInputs.cache
+C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.DL\obj\Debug\netstandard2.0\HRIS.DL.AssemblyInfoInputs.cache
+C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.DL\obj\Debug\netstandard2.0\HRIS.DL.AssemblyInfo.cs
