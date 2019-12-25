@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\63921\\Desktop\\ProjectHRIS\\HRIS\\HRIS.EL\\HRIS.EL.csproj",
+      "projectUniqueName": "C:\\Users\\63921\\Desktop\\Repository for HRIS\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj",
       "projectName": "HRIS.EL",
-      "projectPath": "C:\\Users\\63921\\Desktop\\ProjectHRIS\\HRIS\\HRIS.EL\\HRIS.EL.csproj",
+      "projectPath": "C:\\Users\\63921\\Desktop\\Repository for HRIS\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj",
       "packagesPath": "C:\\Users\\63921\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\63921\\Desktop\\ProjectHRIS\\HRIS\\HRIS.EL\\obj\\",
+      "outputPath": "C:\\Users\\63921\\Desktop\\Repository for HRIS\\firstupload\\HRIS\\HRIS.EL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

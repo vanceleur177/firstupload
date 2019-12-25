@@ -7,3 +7,12 @@ C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL
 C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.AssemblyInfo.cs
 C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.dll
 C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.pdb
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\bin\Debug\netstandard2.0\HRIS.BL.deps.json
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\bin\Debug\netstandard2.0\HRIS.BL.dll
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\bin\Debug\netstandard2.0\HRIS.BL.pdb
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.csprojAssemblyReference.cache
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.csproj.CoreCompileInputs.cache
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.AssemblyInfoInputs.cache
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.AssemblyInfo.cs
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.dll
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.pdb

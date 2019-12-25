@@ -28,3 +28,24 @@ C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.PL\obj\Debug\HRIS.PL.csproj.CoreCom
 C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.PL\obj\Debug\HRIS.PL.csproj.CopyComplete
 C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.PL\obj\Debug\HRIS.PL.exe
 C:\Users\63921\Desktop\ProjectHRIS\HRIS\HRIS.PL\obj\Debug\HRIS.PL.pdb
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.PL.exe.config
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.PL.exe
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.PL.pdb
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.BL.dll
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.EL.dll
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.BL.pdb
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.EL.pdb
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.csprojAssemblyReference.cache
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDEMPLOYEECSELIGIBILITY.resources
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDEMPLOYEEEDUCBG.resources
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDEMPLOYEEFAMILYBG.resources
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDEMPLOYEEINFO.resources
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDEMPLOYEEWORKEXPERIENCE.resources
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDOTHERINFORMATION.resources
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDVOLUNTARYWORK.resources
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.Properties.Resources.resources
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.csproj.GenerateResource.cache
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.csproj.CoreCompileInputs.cache
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.csproj.CopyComplete
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.exe
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.pdb

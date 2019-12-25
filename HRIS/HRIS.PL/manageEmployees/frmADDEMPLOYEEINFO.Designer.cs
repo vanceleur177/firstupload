@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -46,8 +47,11 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.dtpDateOfBirth = new System.Windows.Forms.DateTimePicker();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.rbMale = new System.Windows.Forms.RadioButton();
+            this.rbFemale = new System.Windows.Forms.RadioButton();
             this.txtPlaceOfBirth = new System.Windows.Forms.TextBox();
-            this.txtDateOfBirth = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -66,12 +70,14 @@
             this.txtPAGIBIGidNum = new System.Windows.Forms.TextBox();
             this.txtGSISidNum = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.cbCountryDualCitezenship = new System.Windows.Forms.ComboBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.CboxByBirth = new System.Windows.Forms.CheckBox();
-            this.CboxByNaturalization = new System.Windows.Forms.CheckBox();
+            this.panel24 = new System.Windows.Forms.Panel();
             this.CboxDualCitizenship = new System.Windows.Forms.CheckBox();
             this.CboxFilipino = new System.Windows.Forms.CheckBox();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.CboxByNaturalization = new System.Windows.Forms.CheckBox();
+            this.CboxByBirth = new System.Windows.Forms.CheckBox();
+            this.cbCountryDualCitezenship = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -96,6 +102,7 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.btnSave = new System.Windows.Forms.Button();
             this.label29 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
@@ -133,16 +140,17 @@
             this.CboxCivilStatusMarried = new System.Windows.Forms.CheckBox();
             this.CboxCivilStatusSingle = new System.Windows.Forms.CheckBox();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
             this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
-            this.rbMale = new System.Windows.Forms.RadioButton();
-            this.rbFemale = new System.Windows.Forms.RadioButton();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel22.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel24.SuspendLayout();
+            this.panel23.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -158,6 +166,7 @@
             this.panel19.SuspendLayout();
             this.panel20.SuspendLayout();
             this.panel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -332,10 +341,9 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel3.Controls.Add(this.rbFemale);
-            this.panel3.Controls.Add(this.rbMale);
+            this.panel3.Controls.Add(this.dtpDateOfBirth);
+            this.panel3.Controls.Add(this.panel22);
             this.panel3.Controls.Add(this.txtPlaceOfBirth);
-            this.panel3.Controls.Add(this.txtDateOfBirth);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label7);
@@ -345,21 +353,54 @@
             this.panel3.Size = new System.Drawing.Size(456, 145);
             this.panel3.TabIndex = 12;
             // 
+            // dtpDateOfBirth
+            // 
+            this.dtpDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDateOfBirth.Location = new System.Drawing.Point(224, 23);
+            this.dtpDateOfBirth.Name = "dtpDateOfBirth";
+            this.dtpDateOfBirth.Size = new System.Drawing.Size(212, 26);
+            this.dtpDateOfBirth.TabIndex = 13;
+            // 
+            // panel22
+            // 
+            this.panel22.Controls.Add(this.rbMale);
+            this.panel22.Controls.Add(this.rbFemale);
+            this.panel22.Location = new System.Drawing.Point(217, 94);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(207, 37);
+            this.panel22.TabIndex = 12;
+            // 
+            // rbMale
+            // 
+            this.rbMale.AutoSize = true;
+            this.rbMale.Location = new System.Drawing.Point(16, 10);
+            this.rbMale.Name = "rbMale";
+            this.rbMale.Size = new System.Drawing.Size(68, 24);
+            this.rbMale.TabIndex = 10;
+            this.rbMale.TabStop = true;
+            this.rbMale.Text = "Male";
+            this.rbMale.UseVisualStyleBackColor = true;
+            this.rbMale.Click += new System.EventHandler(this.RbMale_Click);
+            // 
+            // rbFemale
+            // 
+            this.rbFemale.AutoSize = true;
+            this.rbFemale.Location = new System.Drawing.Point(104, 10);
+            this.rbFemale.Name = "rbFemale";
+            this.rbFemale.Size = new System.Drawing.Size(87, 24);
+            this.rbFemale.TabIndex = 11;
+            this.rbFemale.TabStop = true;
+            this.rbFemale.Text = "Female";
+            this.rbFemale.UseVisualStyleBackColor = true;
+            this.rbFemale.Click += new System.EventHandler(this.RbFemale_Click);
+            // 
             // txtPlaceOfBirth
             // 
             this.txtPlaceOfBirth.Location = new System.Drawing.Point(224, 60);
             this.txtPlaceOfBirth.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPlaceOfBirth.Name = "txtPlaceOfBirth";
-            this.txtPlaceOfBirth.Size = new System.Drawing.Size(223, 26);
+            this.txtPlaceOfBirth.Size = new System.Drawing.Size(212, 26);
             this.txtPlaceOfBirth.TabIndex = 9;
-            // 
-            // txtDateOfBirth
-            // 
-            this.txtDateOfBirth.Location = new System.Drawing.Point(224, 11);
-            this.txtDateOfBirth.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtDateOfBirth.Name = "txtDateOfBirth";
-            this.txtDateOfBirth.Size = new System.Drawing.Size(223, 26);
-            this.txtDateOfBirth.TabIndex = 8;
             // 
             // label12
             // 
@@ -417,9 +458,9 @@
             this.label17.Location = new System.Drawing.Point(6, 209);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(209, 20);
+            this.label17.Size = new System.Drawing.Size(221, 20);
             this.label17.TabIndex = 18;
-            this.label17.Text = "AGENCY EMPLYEE ID NO.";
+            this.label17.Text = "AGENCY EMPLOYEE ID NO.";
             // 
             // panel4
             // 
@@ -542,12 +583,10 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel6.Controls.Add(this.panel24);
+            this.panel6.Controls.Add(this.panel23);
             this.panel6.Controls.Add(this.cbCountryDualCitezenship);
             this.panel6.Controls.Add(this.label21);
-            this.panel6.Controls.Add(this.CboxByBirth);
-            this.panel6.Controls.Add(this.CboxByNaturalization);
-            this.panel6.Controls.Add(this.CboxDualCitizenship);
-            this.panel6.Controls.Add(this.CboxFilipino);
             this.panel6.Controls.Add(this.panel7);
             this.panel6.Location = new System.Drawing.Point(483, 166);
             this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -555,9 +594,81 @@
             this.panel6.Size = new System.Drawing.Size(902, 185);
             this.panel6.TabIndex = 21;
             // 
+            // panel24
+            // 
+            this.panel24.Controls.Add(this.CboxDualCitizenship);
+            this.panel24.Controls.Add(this.CboxFilipino);
+            this.panel24.Location = new System.Drawing.Point(332, 8);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(449, 51);
+            this.panel24.TabIndex = 17;
+            // 
+            // CboxDualCitizenship
+            // 
+            this.CboxDualCitizenship.AutoSize = true;
+            this.CboxDualCitizenship.Location = new System.Drawing.Point(252, 13);
+            this.CboxDualCitizenship.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CboxDualCitizenship.Name = "CboxDualCitizenship";
+            this.CboxDualCitizenship.Size = new System.Drawing.Size(149, 24);
+            this.CboxDualCitizenship.TabIndex = 12;
+            this.CboxDualCitizenship.Text = "Dual Citizenship";
+            this.CboxDualCitizenship.UseVisualStyleBackColor = true;
+            this.CboxDualCitizenship.Click += new System.EventHandler(this.CboxDualCitizenship_Click);
+            // 
+            // CboxFilipino
+            // 
+            this.CboxFilipino.AutoSize = true;
+            this.CboxFilipino.Location = new System.Drawing.Point(40, 13);
+            this.CboxFilipino.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CboxFilipino.Name = "CboxFilipino";
+            this.CboxFilipino.Size = new System.Drawing.Size(84, 24);
+            this.CboxFilipino.TabIndex = 11;
+            this.CboxFilipino.Text = "Filipino";
+            this.CboxFilipino.UseVisualStyleBackColor = true;
+            this.CboxFilipino.Click += new System.EventHandler(this.CboxFilipino_Click);
+            // 
+            // panel23
+            // 
+            this.panel23.Controls.Add(this.CboxByNaturalization);
+            this.panel23.Controls.Add(this.CboxByBirth);
+            this.panel23.Location = new System.Drawing.Point(584, 62);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(261, 41);
+            this.panel23.TabIndex = 16;
+            // 
+            // CboxByNaturalization
+            // 
+            this.CboxByNaturalization.AutoSize = true;
+            this.CboxByNaturalization.Location = new System.Drawing.Point(102, 5);
+            this.CboxByNaturalization.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CboxByNaturalization.Name = "CboxByNaturalization";
+            this.CboxByNaturalization.Size = new System.Drawing.Size(150, 24);
+            this.CboxByNaturalization.TabIndex = 13;
+            this.CboxByNaturalization.Text = "by naturalization";
+            this.CboxByNaturalization.UseVisualStyleBackColor = true;
+            this.CboxByNaturalization.Click += new System.EventHandler(this.CboxByNaturalization_Click);
+            // 
+            // CboxByBirth
+            // 
+            this.CboxByBirth.AutoSize = true;
+            this.CboxByBirth.Location = new System.Drawing.Point(8, 5);
+            this.CboxByBirth.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CboxByBirth.Name = "CboxByBirth";
+            this.CboxByBirth.Size = new System.Drawing.Size(86, 24);
+            this.CboxByBirth.TabIndex = 14;
+            this.CboxByBirth.Text = "by birth";
+            this.CboxByBirth.UseVisualStyleBackColor = true;
+            this.CboxByBirth.Click += new System.EventHandler(this.CboxByBirth_Click);
+            // 
             // cbCountryDualCitezenship
             // 
+            this.cbCountryDualCitezenship.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbCountryDualCitezenship.FormattingEnabled = true;
+            this.cbCountryDualCitezenship.Items.AddRange(new object[] {
+            "USA",
+            "GERMANY",
+            "FRANCE",
+            "JAPAN"});
             this.cbCountryDualCitezenship.Location = new System.Drawing.Point(312, 142);
             this.cbCountryDualCitezenship.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbCountryDualCitezenship.Name = "cbCountryDualCitezenship";
@@ -573,50 +684,6 @@
             this.label21.Size = new System.Drawing.Size(153, 20);
             this.label21.TabIndex = 12;
             this.label21.Text = "Pls. indicate country:";
-            // 
-            // CboxByBirth
-            // 
-            this.CboxByBirth.AutoSize = true;
-            this.CboxByBirth.Location = new System.Drawing.Point(584, 63);
-            this.CboxByBirth.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.CboxByBirth.Name = "CboxByBirth";
-            this.CboxByBirth.Size = new System.Drawing.Size(86, 24);
-            this.CboxByBirth.TabIndex = 14;
-            this.CboxByBirth.Text = "by birth";
-            this.CboxByBirth.UseVisualStyleBackColor = true;
-            // 
-            // CboxByNaturalization
-            // 
-            this.CboxByNaturalization.AutoSize = true;
-            this.CboxByNaturalization.Location = new System.Drawing.Point(682, 63);
-            this.CboxByNaturalization.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.CboxByNaturalization.Name = "CboxByNaturalization";
-            this.CboxByNaturalization.Size = new System.Drawing.Size(150, 24);
-            this.CboxByNaturalization.TabIndex = 13;
-            this.CboxByNaturalization.Text = "by naturalization";
-            this.CboxByNaturalization.UseVisualStyleBackColor = true;
-            // 
-            // CboxDualCitizenship
-            // 
-            this.CboxDualCitizenship.AutoSize = true;
-            this.CboxDualCitizenship.Location = new System.Drawing.Point(584, 23);
-            this.CboxDualCitizenship.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.CboxDualCitizenship.Name = "CboxDualCitizenship";
-            this.CboxDualCitizenship.Size = new System.Drawing.Size(149, 24);
-            this.CboxDualCitizenship.TabIndex = 12;
-            this.CboxDualCitizenship.Text = "Dual Citizenship";
-            this.CboxDualCitizenship.UseVisualStyleBackColor = true;
-            // 
-            // CboxFilipino
-            // 
-            this.CboxFilipino.AutoSize = true;
-            this.CboxFilipino.Location = new System.Drawing.Point(334, 22);
-            this.CboxFilipino.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.CboxFilipino.Name = "CboxFilipino";
-            this.CboxFilipino.Size = new System.Drawing.Size(84, 24);
-            this.CboxFilipino.TabIndex = 11;
-            this.CboxFilipino.Text = "Filipino";
-            this.CboxFilipino.UseVisualStyleBackColor = true;
             // 
             // panel7
             // 
@@ -714,7 +781,7 @@
             // 
             // txt1Province
             // 
-            this.txt1Province.Location = new System.Drawing.Point(549, 168);
+            this.txt1Province.Location = new System.Drawing.Point(549, 174);
             this.txt1Province.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt1Province.Name = "txt1Province";
             this.txt1Province.Size = new System.Drawing.Size(322, 26);
@@ -722,7 +789,7 @@
             // 
             // txt1CityMunicipality
             // 
-            this.txt1CityMunicipality.Location = new System.Drawing.Point(220, 168);
+            this.txt1CityMunicipality.Location = new System.Drawing.Point(220, 174);
             this.txt1CityMunicipality.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt1CityMunicipality.Name = "txt1CityMunicipality";
             this.txt1CityMunicipality.Size = new System.Drawing.Size(322, 26);
@@ -742,7 +809,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(471, 8);
+            this.label27.Location = new System.Drawing.Point(471, 4);
             this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(69, 20);
@@ -752,7 +819,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(105, 6);
+            this.label28.Location = new System.Drawing.Point(105, 2);
             this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(120, 20);
@@ -761,7 +828,7 @@
             // 
             // txt1Barangay
             // 
-            this.txt1Barangay.Location = new System.Drawing.Point(549, 86);
+            this.txt1Barangay.Location = new System.Drawing.Point(549, 92);
             this.txt1Barangay.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt1Barangay.Name = "txt1Barangay";
             this.txt1Barangay.Size = new System.Drawing.Size(322, 26);
@@ -769,7 +836,7 @@
             // 
             // txt1SubdivisionVillage
             // 
-            this.txt1SubdivisionVillage.Location = new System.Drawing.Point(220, 86);
+            this.txt1SubdivisionVillage.Location = new System.Drawing.Point(220, 92);
             this.txt1SubdivisionVillage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt1SubdivisionVillage.Name = "txt1SubdivisionVillage";
             this.txt1SubdivisionVillage.Size = new System.Drawing.Size(322, 26);
@@ -789,7 +856,7 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(466, 8);
+            this.label25.Location = new System.Drawing.Point(466, 4);
             this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(77, 20);
@@ -799,7 +866,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(93, 8);
+            this.label26.Location = new System.Drawing.Point(93, 4);
             this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(140, 20);
@@ -808,7 +875,7 @@
             // 
             // txt1Street
             // 
-            this.txt1Street.Location = new System.Drawing.Point(549, 5);
+            this.txt1Street.Location = new System.Drawing.Point(549, 11);
             this.txt1Street.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt1Street.Name = "txt1Street";
             this.txt1Street.Size = new System.Drawing.Size(322, 26);
@@ -816,7 +883,7 @@
             // 
             // txt1HouseBlockLot
             // 
-            this.txt1HouseBlockLot.Location = new System.Drawing.Point(220, 5);
+            this.txt1HouseBlockLot.Location = new System.Drawing.Point(220, 11);
             this.txt1HouseBlockLot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt1HouseBlockLot.Name = "txt1HouseBlockLot";
             this.txt1HouseBlockLot.Size = new System.Drawing.Size(322, 26);
@@ -836,7 +903,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(472, 8);
+            this.label23.Location = new System.Drawing.Point(472, 4);
             this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(53, 20);
@@ -846,7 +913,7 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(81, 8);
+            this.label22.Location = new System.Drawing.Point(81, 4);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(154, 20);
@@ -856,6 +923,7 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.SystemColors.Control;
+            this.panel10.Controls.Add(this.btnSave);
             this.panel10.Controls.Add(this.label29);
             this.panel10.Controls.Add(this.label24);
             this.panel10.Location = new System.Drawing.Point(4, 5);
@@ -863,6 +931,17 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(207, 277);
             this.panel10.TabIndex = 12;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(8, 60);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(124, 82);
+            this.btnSave.TabIndex = 33;
+            this.btnSave.Text = "NEXT";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
             // label29
             // 
@@ -923,7 +1002,7 @@
             // 
             // txt2Province
             // 
-            this.txt2Province.Location = new System.Drawing.Point(549, 168);
+            this.txt2Province.Location = new System.Drawing.Point(549, 174);
             this.txt2Province.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt2Province.Name = "txt2Province";
             this.txt2Province.Size = new System.Drawing.Size(322, 26);
@@ -931,7 +1010,7 @@
             // 
             // txt2CityMunicipality
             // 
-            this.txt2CityMunicipality.Location = new System.Drawing.Point(220, 168);
+            this.txt2CityMunicipality.Location = new System.Drawing.Point(220, 174);
             this.txt2CityMunicipality.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt2CityMunicipality.Name = "txt2CityMunicipality";
             this.txt2CityMunicipality.Size = new System.Drawing.Size(322, 26);
@@ -951,7 +1030,7 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(471, 8);
+            this.label30.Location = new System.Drawing.Point(471, 4);
             this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(69, 20);
@@ -961,7 +1040,7 @@
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(105, 6);
+            this.label31.Location = new System.Drawing.Point(105, 2);
             this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(120, 20);
@@ -970,7 +1049,7 @@
             // 
             // txt2Barangay
             // 
-            this.txt2Barangay.Location = new System.Drawing.Point(549, 86);
+            this.txt2Barangay.Location = new System.Drawing.Point(549, 92);
             this.txt2Barangay.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt2Barangay.Name = "txt2Barangay";
             this.txt2Barangay.Size = new System.Drawing.Size(322, 26);
@@ -978,7 +1057,7 @@
             // 
             // txt2SubdivisionVillage
             // 
-            this.txt2SubdivisionVillage.Location = new System.Drawing.Point(220, 86);
+            this.txt2SubdivisionVillage.Location = new System.Drawing.Point(220, 92);
             this.txt2SubdivisionVillage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt2SubdivisionVillage.Name = "txt2SubdivisionVillage";
             this.txt2SubdivisionVillage.Size = new System.Drawing.Size(322, 26);
@@ -998,7 +1077,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(466, 8);
+            this.label32.Location = new System.Drawing.Point(466, 4);
             this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(77, 20);
@@ -1008,7 +1087,7 @@
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(93, 8);
+            this.label33.Location = new System.Drawing.Point(93, 4);
             this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(140, 20);
@@ -1017,7 +1096,7 @@
             // 
             // txt2Street
             // 
-            this.txt2Street.Location = new System.Drawing.Point(549, 5);
+            this.txt2Street.Location = new System.Drawing.Point(549, 11);
             this.txt2Street.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt2Street.Name = "txt2Street";
             this.txt2Street.Size = new System.Drawing.Size(322, 26);
@@ -1025,7 +1104,7 @@
             // 
             // txt2HouseBlockLot
             // 
-            this.txt2HouseBlockLot.Location = new System.Drawing.Point(220, 5);
+            this.txt2HouseBlockLot.Location = new System.Drawing.Point(220, 11);
             this.txt2HouseBlockLot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt2HouseBlockLot.Name = "txt2HouseBlockLot";
             this.txt2HouseBlockLot.Size = new System.Drawing.Size(322, 26);
@@ -1045,7 +1124,7 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(472, 8);
+            this.label34.Location = new System.Drawing.Point(472, 4);
             this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(53, 20);
@@ -1055,7 +1134,7 @@
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(81, 8);
+            this.label35.Location = new System.Drawing.Point(81, 4);
             this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(154, 20);
@@ -1247,52 +1326,22 @@
             this.btnCancel.Text = "CANCEL";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
-            // btnSave
-            // 
-            this.btnSave.Location = new System.Drawing.Point(1128, 1012);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(124, 82);
-            this.btnSave.TabIndex = 33;
-            this.btnSave.Text = "SAVE";
-            this.btnSave.UseVisualStyleBackColor = true;
-            // 
             // directorySearcher1
             // 
             this.directorySearcher1.ClientTimeout = System.TimeSpan.Parse("-00:00:01");
             this.directorySearcher1.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
             this.directorySearcher1.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
             // 
-            // rbMale
+            // errorProvider1
             // 
-            this.rbMale.AutoSize = true;
-            this.rbMale.Location = new System.Drawing.Point(224, 103);
-            this.rbMale.Name = "rbMale";
-            this.rbMale.Size = new System.Drawing.Size(68, 24);
-            this.rbMale.TabIndex = 10;
-            this.rbMale.TabStop = true;
-            this.rbMale.Text = "Male";
-            this.rbMale.UseVisualStyleBackColor = true;
-            this.rbMale.Click += new System.EventHandler(this.RbMale_Click);
-            // 
-            // rbFemale
-            // 
-            this.rbFemale.AutoSize = true;
-            this.rbFemale.Location = new System.Drawing.Point(332, 102);
-            this.rbFemale.Name = "rbFemale";
-            this.rbFemale.Size = new System.Drawing.Size(87, 24);
-            this.rbFemale.TabIndex = 11;
-            this.rbFemale.TabStop = true;
-            this.rbFemale.Text = "Female";
-            this.rbFemale.UseVisualStyleBackColor = true;
-            this.rbFemale.Click += new System.EventHandler(this.RbFemale_Click);
+            this.errorProvider1.ContainerControl = this;
             // 
             // frmADDEMPLOYEEINFO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1404, 1050);
-            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.panel21);
             this.Controls.Add(this.panel20);
@@ -1307,18 +1356,25 @@
             this.Name = "frmADDEMPLOYEEINFO";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FrmADDEMPLOYEEINFO_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel22.ResumeLayout(false);
+            this.panel22.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.panel24.ResumeLayout(false);
+            this.panel24.PerformLayout();
+            this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
@@ -1347,6 +1403,7 @@
             this.panel20.PerformLayout();
             this.panel21.ResumeLayout(false);
             this.panel21.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1391,7 +1448,6 @@
         private System.Windows.Forms.TextBox txtFirstNAme;
         private System.Windows.Forms.TextBox txtSurename;
         private System.Windows.Forms.TextBox txtPlaceOfBirth;
-        private System.Windows.Forms.TextBox txtDateOfBirth;
         private System.Windows.Forms.ComboBox cbBloodType;
         private System.Windows.Forms.TextBox txtWeight;
         private System.Windows.Forms.TextBox txtHeight;
@@ -1462,5 +1518,10 @@
         private System.Windows.Forms.RadioButton rbFemale;
         private System.Windows.Forms.RadioButton rbMale;
         private System.DirectoryServices.DirectorySearcher directorySearcher1;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Panel panel22;
+        private System.Windows.Forms.Panel panel24;
+        private System.Windows.Forms.Panel panel23;
+        private System.Windows.Forms.DateTimePicker dtpDateOfBirth;
     }
 }
