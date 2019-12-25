@@ -4414,8 +4414,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\63921\\Desktop\\Repository for HRIS\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj": {
-              "projectPath": "C:\\Users\\63921\\Desktop\\Repository for HRIS\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj"
+            "C:\\Users\\lev\\Desktop\\M-InfoTech\\PROJECTHRIS-SAD\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj": {
+              "projectPath": "C:\\Users\\lev\\Desktop\\M-InfoTech\\PROJECTHRIS-SAD\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj"
             }
           }
         }
@@ -4453,5 +4453,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\lev\\Desktop\\M-InfoTech\\PROJECTHRIS-SAD\\firstupload\\HRIS\\HRIS.DL\\obj\\HRIS.DL.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

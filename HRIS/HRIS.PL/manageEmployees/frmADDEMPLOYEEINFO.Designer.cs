@@ -140,11 +140,7 @@
             this.CboxCivilStatusMarried = new System.Windows.Forms.CheckBox();
             this.CboxCivilStatusSingle = new System.Windows.Forms.CheckBox();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -342,7 +338,7 @@
             // 
             this.dtpDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpDateOfBirth.Location = new System.Drawing.Point(149, 15);
-            this.dtpDateOfBirth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpDateOfBirth.Margin = new System.Windows.Forms.Padding(2);
             this.dtpDateOfBirth.Name = "dtpDateOfBirth";
             this.dtpDateOfBirth.Size = new System.Drawing.Size(143, 20);
             this.dtpDateOfBirth.TabIndex = 13;
@@ -352,7 +348,7 @@
             this.panel22.Controls.Add(this.rbMale);
             this.panel22.Controls.Add(this.rbFemale);
             this.panel22.Location = new System.Drawing.Point(145, 61);
-            this.panel22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel22.Margin = new System.Windows.Forms.Padding(2);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(138, 24);
             this.panel22.TabIndex = 12;
@@ -361,7 +357,7 @@
             // 
             this.rbMale.AutoSize = true;
             this.rbMale.Location = new System.Drawing.Point(11, 6);
-            this.rbMale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbMale.Margin = new System.Windows.Forms.Padding(2);
             this.rbMale.Name = "rbMale";
             this.rbMale.Size = new System.Drawing.Size(48, 17);
             this.rbMale.TabIndex = 10;
@@ -374,7 +370,7 @@
             // 
             this.rbFemale.AutoSize = true;
             this.rbFemale.Location = new System.Drawing.Point(69, 6);
-            this.rbFemale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbFemale.Margin = new System.Windows.Forms.Padding(2);
             this.rbFemale.Name = "rbFemale";
             this.rbFemale.Size = new System.Drawing.Size(59, 17);
             this.rbFemale.TabIndex = 11;
@@ -569,7 +565,7 @@
             this.panel24.Controls.Add(this.CboxDualCitizenship);
             this.panel24.Controls.Add(this.CboxFilipino);
             this.panel24.Location = new System.Drawing.Point(221, 5);
-            this.panel24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel24.Margin = new System.Windows.Forms.Padding(2);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(299, 33);
             this.panel24.TabIndex = 17;
@@ -601,7 +597,7 @@
             this.panel23.Controls.Add(this.CboxByNaturalization);
             this.panel23.Controls.Add(this.CboxByBirth);
             this.panel23.Location = new System.Drawing.Point(389, 40);
-            this.panel23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel23.Margin = new System.Windows.Forms.Padding(2);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(174, 27);
             this.panel23.TabIndex = 16;
@@ -866,9 +862,6 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.SystemColors.Control;
-            this.panel10.Controls.Add(this.button3);
-            this.panel10.Controls.Add(this.button2);
-            this.panel10.Controls.Add(this.button1);
             this.panel10.Controls.Add(this.btnSave);
             this.panel10.Controls.Add(this.label29);
             this.panel10.Controls.Add(this.label24);
@@ -1233,49 +1226,16 @@
             this.btnCancel.Text = "CANCEL";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
-            // directorySearcher1
-            // 
-            this.directorySearcher1.ClientTimeout = System.TimeSpan.Parse("-00:00:01");
-            this.directorySearcher1.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
-            this.directorySearcher1.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
-            // 
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(28, 64);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 53);
-            this.button1.TabIndex = 34;
-            this.button1.Text = "NEXT";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(36, 72);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(83, 53);
-            this.button2.TabIndex = 35;
-            this.button2.Text = "NEXT";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(44, 80);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(83, 53);
-            this.button3.TabIndex = 36;
-            this.button3.Text = "NEXT";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // frmADDEMPLOYEEINFO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(913, 487);
+            this.ClientSize = new System.Drawing.Size(1010, 719);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.panel21);
             this.Controls.Add(this.panel20);
@@ -1450,14 +1410,10 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.RadioButton rbFemale;
         private System.Windows.Forms.RadioButton rbMale;
-        private System.DirectoryServices.DirectorySearcher directorySearcher1;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.Panel panel24;
         private System.Windows.Forms.Panel panel23;
         private System.Windows.Forms.DateTimePicker dtpDateOfBirth;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
     }
 }
