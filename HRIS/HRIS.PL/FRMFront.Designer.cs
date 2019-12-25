@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRMFront));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cREATERECORDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eDITRECORDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,6 +44,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -51,38 +53,41 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cREATERECORDToolStripMenuItem,
             this.eDITRECORDToolStripMenuItem,
             this.dELETERECORDToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(157, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(853, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1213, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // cREATERECORDToolStripMenuItem
             // 
+            this.cREATERECORDToolStripMenuItem.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.cREATERECORDToolStripMenuItem.Name = "cREATERECORDToolStripMenuItem";
             this.cREATERECORDToolStripMenuItem.Size = new System.Drawing.Size(107, 20);
             this.cREATERECORDToolStripMenuItem.Text = "CREATE RECORD";
             // 
             // eDITRECORDToolStripMenuItem
             // 
+            this.eDITRECORDToolStripMenuItem.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.eDITRECORDToolStripMenuItem.Name = "eDITRECORDToolStripMenuItem";
             this.eDITRECORDToolStripMenuItem.Size = new System.Drawing.Size(90, 20);
             this.eDITRECORDToolStripMenuItem.Text = "EDIT RECORD";
             // 
             // dELETERECORDToolStripMenuItem
             // 
+            this.dELETERECORDToolStripMenuItem.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.dELETERECORDToolStripMenuItem.Name = "dELETERECORDToolStripMenuItem";
             this.dELETERECORDToolStripMenuItem.Size = new System.Drawing.Size(105, 20);
             this.dELETERECORDToolStripMenuItem.Text = "DELETE RECORD";
             // 
             // menuStrip2
             // 
-            this.menuStrip2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.menuStrip2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.menuStrip2.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.listOfEmployeeToolStripMenuItem,
@@ -147,13 +152,14 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(19, 670);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(352, 13);
+            this.label1.Size = new System.Drawing.Size(506, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Please select Employees\' details to EDIT/UPDTA and DELETE a record.";
+            this.label1.Text = "Please select Employees\' details to EDIT/UPDTA or DELETE a record.";
             // 
             // dataGridView1
             // 
@@ -182,11 +188,21 @@
             this.button3.Text = "CANCEL";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.Location = new System.Drawing.Point(1016, 27);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(342, 687);
+            this.panel2.TabIndex = 59;
+            // 
             // FRMFront
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1010, 719);
+            this.ClientSize = new System.Drawing.Size(1370, 719);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.panel1);
@@ -226,6 +242,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
