@@ -123,12 +123,14 @@ namespace HRIS.PL.manageEmployees
             { CitizenshipEL.Citizenshipdualitycountry = "N/A"; }
             else CitizenshipEL.Citizenshipdualitycountry = cbCountryDualCitezenship.Text;
         }
+
+
         bool isChecked = false;
       
         private void RbSameAddress_CheckedChanged(object sender, EventArgs e)
         {
             isChecked = rbSameAddress.Checked;
-            getDataFromForm();
+            getDataFromForm();  
             txt2HouseBlockLot.Text = AddressEL.Houseblklotnumber.ToString();
             txt2Street.Text = AddressEL.Street.ToString();
             txt2SubdivisionVillage.Text = AddressEL.Subdvillage.ToString();
@@ -466,7 +468,14 @@ namespace HRIS.PL.manageEmployees
         {
             if (validations())
             {
-                MessageBox.Show(FullnameEL.Firstname);
+
+                HRIS.PL.manageEmployees.frmADDEMPLOYEEEDUCBG frmADDEMPLOYEEEDUCBG = new manageEmployees.frmADDEMPLOYEEEDUCBG(EmployeeEL, FullnameEL, AddressEL, CitizenshipEL, InsuranceEL, this);/*, EmployeeEL, AddressEL, InsuranceEL, CitizenshipEL, FullnameEL*/
+                frmADDEMPLOYEEEDUCBG.ShowDialog();
+
+
+
+
+               /* MessageBox.Show(FullnameEL.Firstname);
                 MessageBox.Show(FullnameEL.Middlename);
                 MessageBox.Show(FullnameEL.Lastname);
                 MessageBox.Show(FullnameEL.Extname);
@@ -502,7 +511,7 @@ namespace HRIS.PL.manageEmployees
                 MessageBox.Show(AddressEL.Zipcode2.ToString());
                 MessageBox.Show(CitizenshipEL.Citizenshiptype);
                 MessageBox.Show(CitizenshipEL.Citizenshipaquiredby);
-                MessageBox.Show(CitizenshipEL.Citizenshipdualitycountry);
+                MessageBox.Show(CitizenshipEL.Citizenshipdualitycountry);*/
 
             }
         }

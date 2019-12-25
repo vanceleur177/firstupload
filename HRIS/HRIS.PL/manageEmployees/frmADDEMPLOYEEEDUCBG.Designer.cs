@@ -60,10 +60,10 @@
             this.txtElemUnits = new System.Windows.Forms.TextBox();
             this.txtGraduateDegreeCource = new System.Windows.Forms.TextBox();
             this.txtVocationalDegreeCource = new System.Windows.Forms.TextBox();
-            this.CollegeDegreeCoure = new System.Windows.Forms.TextBox();
+            this.txtCollegeDegreeCoure = new System.Windows.Forms.TextBox();
             this.txtSecondaruDegCource = new System.Windows.Forms.TextBox();
             this.txtElementaryDegCource = new System.Windows.Forms.TextBox();
-            this.GraduateStudiesName = new System.Windows.Forms.TextBox();
+            this.txtGraduateStudiesName = new System.Windows.Forms.TextBox();
             this.txtVocationalTradeCourceName = new System.Windows.Forms.TextBox();
             this.txtCollegeName = new System.Windows.Forms.TextBox();
             this.txtSecondaryName = new System.Windows.Forms.TextBox();
@@ -176,10 +176,10 @@
             this.panel2.Controls.Add(this.txtElemUnits);
             this.panel2.Controls.Add(this.txtGraduateDegreeCource);
             this.panel2.Controls.Add(this.txtVocationalDegreeCource);
-            this.panel2.Controls.Add(this.CollegeDegreeCoure);
+            this.panel2.Controls.Add(this.txtCollegeDegreeCoure);
             this.panel2.Controls.Add(this.txtSecondaruDegCource);
             this.panel2.Controls.Add(this.txtElementaryDegCource);
-            this.panel2.Controls.Add(this.GraduateStudiesName);
+            this.panel2.Controls.Add(this.txtGraduateStudiesName);
             this.panel2.Controls.Add(this.txtVocationalTradeCourceName);
             this.panel2.Controls.Add(this.txtCollegeName);
             this.panel2.Controls.Add(this.txtSecondaryName);
@@ -406,13 +406,13 @@
             this.txtVocationalDegreeCource.Size = new System.Drawing.Size(325, 26);
             this.txtVocationalDegreeCource.TabIndex = 8;
             // 
-            // CollegeDegreeCoure
+            // txtCollegeDegreeCoure
             // 
-            this.CollegeDegreeCoure.Location = new System.Drawing.Point(345, 163);
-            this.CollegeDegreeCoure.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.CollegeDegreeCoure.Name = "CollegeDegreeCoure";
-            this.CollegeDegreeCoure.Size = new System.Drawing.Size(325, 26);
-            this.CollegeDegreeCoure.TabIndex = 7;
+            this.txtCollegeDegreeCoure.Location = new System.Drawing.Point(345, 163);
+            this.txtCollegeDegreeCoure.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCollegeDegreeCoure.Name = "txtCollegeDegreeCoure";
+            this.txtCollegeDegreeCoure.Size = new System.Drawing.Size(325, 26);
+            this.txtCollegeDegreeCoure.TabIndex = 7;
             // 
             // txtSecondaruDegCource
             // 
@@ -430,13 +430,13 @@
             this.txtElementaryDegCource.Size = new System.Drawing.Size(325, 26);
             this.txtElementaryDegCource.TabIndex = 5;
             // 
-            // GraduateStudiesName
+            // txtGraduateStudiesName
             // 
-            this.GraduateStudiesName.Location = new System.Drawing.Point(6, 212);
-            this.GraduateStudiesName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.GraduateStudiesName.Name = "GraduateStudiesName";
-            this.GraduateStudiesName.Size = new System.Drawing.Size(326, 26);
-            this.GraduateStudiesName.TabIndex = 4;
+            this.txtGraduateStudiesName.Location = new System.Drawing.Point(6, 212);
+            this.txtGraduateStudiesName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtGraduateStudiesName.Name = "txtGraduateStudiesName";
+            this.txtGraduateStudiesName.Size = new System.Drawing.Size(326, 26);
+            this.txtGraduateStudiesName.TabIndex = 4;
             // 
             // txtVocationalTradeCourceName
             // 
@@ -813,10 +813,10 @@
         private System.Windows.Forms.TextBox txtElemUnits;
         private System.Windows.Forms.TextBox txtGraduateDegreeCource;
         private System.Windows.Forms.TextBox txtVocationalDegreeCource;
-        private System.Windows.Forms.TextBox CollegeDegreeCoure;
+        private System.Windows.Forms.TextBox txtCollegeDegreeCoure;
         private System.Windows.Forms.TextBox txtSecondaruDegCource;
         private System.Windows.Forms.TextBox txtElementaryDegCource;
-        private System.Windows.Forms.TextBox GraduateStudiesName;
+        private System.Windows.Forms.TextBox txtGraduateStudiesName;
         private System.Windows.Forms.TextBox txtVocationalTradeCourceName;
         private System.Windows.Forms.Button button1;
     }

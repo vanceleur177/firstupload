@@ -19,6 +19,12 @@ namespace HRIS.EL.manageEmployees
 
 
 
+        String elementarylevel;
+        String secondaryLevel;
+        String vocationalLevel;
+        String collegeLevel;
+        String graduateLevel;
+
         String elementaryschoolname;
         String secondaryschoolname;
         String vocationalschoolname;
@@ -31,16 +37,16 @@ namespace HRIS.EL.manageEmployees
         String collegdegcourse;
         String graduatedegcourse;
 
-        int elementaryTo;
-        int elementaryFrom;
-        int secondaryTo;
-        int secondaryFrom;
-        int vocationalTo;
-        int vocationalFrom;
-        int collegeTo;
-        int collegeFrom;
-        int graduateTo;
-        int GraduateFrom;
+        String elementaryTo;
+        String elementaryFrom;
+        String secondaryTo;
+        String secondaryFrom;
+        String vocationalTo;
+        String vocationalFrom;
+        String collegeTo;
+        String collegeFrom;
+        String graduateTo;
+        String graduateFrom;
 
         int elementaryunitearned;
         int secondaryunitearned;
@@ -53,6 +59,12 @@ namespace HRIS.EL.manageEmployees
         String vocationalHonorrecieved;
         String collegeHonorrecieved;
         String graduateHonorrecieved;
+
+        String elementaryYeargraduated;
+        String secondaryYeargraduated;
+        String vocationalYeargraduated;
+        String collegeYeargraduated;
+        String graduateschoolGraduated;
 
 
 
@@ -79,16 +91,16 @@ namespace HRIS.EL.manageEmployees
         public string Vocationaldegcource { get => vocationaldegcource; set => vocationaldegcource = value; }
         public string Collegdegcourse { get => collegdegcourse; set => collegdegcourse = value; }
         public string Graduatedegcourse { get => graduatedegcourse; set => graduatedegcourse = value; }
-        public int ElementaryTo { get => elementaryTo; set => elementaryTo = value; }
-        public int ElementaryFrom { get => elementaryFrom; set => elementaryFrom = value; }
-        public int SecondaryTo { get => secondaryTo; set => secondaryTo = value; }
-        public int SecondaryFrom { get => secondaryFrom; set => secondaryFrom = value; }
-        public int VocationalTo { get => vocationalTo; set => vocationalTo = value; }
-        public int VocationalFrom { get => vocationalFrom; set => vocationalFrom = value; }
-        public int CollegeTo { get => collegeTo; set => collegeTo = value; }
-        public int CollegeFrom { get => collegeFrom; set => collegeFrom = value; }
-        public int GraduateTo { get => graduateTo; set => graduateTo = value; }
-        public int GraduateFrom1 { get => GraduateFrom; set => GraduateFrom = value; }
+        public string ElementaryTo { get => elementaryTo; set => elementaryTo = value; }
+        public string ElementaryFrom { get => elementaryFrom; set => elementaryFrom = value; }
+        public string SecondaryTo { get => secondaryTo; set => secondaryTo = value; }
+        public string SecondaryFrom { get => secondaryFrom; set => secondaryFrom = value; }
+        public string VocationalTo { get => vocationalTo; set => vocationalTo = value; }
+        public string VocationalFrom { get => vocationalFrom; set => vocationalFrom = value; }
+        public string CollegeTo { get => collegeTo; set => collegeTo = value; }
+        public string CollegeFrom { get => collegeFrom; set => collegeFrom = value; }
+        public string GraduateTo { get => graduateTo; set => graduateTo = value; }
+        public string GraduateFrom { get => graduateFrom; set => graduateFrom = value; }
         public int Elementaryunitearned { get => elementaryunitearned; set => elementaryunitearned = value; }
         public int Secondaryunitearned { get => secondaryunitearned; set => secondaryunitearned = value; }
         public int Vocationalunitearned { get => vocationalunitearned; set => vocationalunitearned = value; }
@@ -99,5 +111,15 @@ namespace HRIS.EL.manageEmployees
         public string VocationalHonorrecieved { get => vocationalHonorrecieved; set => vocationalHonorrecieved = value; }
         public string CollegeHonorrecieved { get => collegeHonorrecieved; set => collegeHonorrecieved = value; }
         public string GraduateHonorrecieved { get => graduateHonorrecieved; set => graduateHonorrecieved = value; }
+        public string Elementarylevel { get => elementarylevel; set => elementarylevel = value; }
+        public string SecondaryLevel { get => secondaryLevel; set => secondaryLevel = value; }
+        public string VocationalLevel { get => vocationalLevel; set => vocationalLevel = value; }
+        public string CollegeLevel { get => collegeLevel; set => collegeLevel = value; }
+        public string GraduateLevel { get => graduateLevel; set => graduateLevel = value; }
+        public string ElementaryYeargraduated { get => elementaryYeargraduated; set => elementaryYeargraduated = value; }
+        public string SecondaryYeargraduated { get => secondaryYeargraduated; set => secondaryYeargraduated = value; }
+        public string VocationalYeargraduated { get => vocationalYeargraduated; set => vocationalYeargraduated = value; }
+        public string CollegeYeargraduated { get => collegeYeargraduated; set => collegeYeargraduated = value; }
+        public string GraduateschoolGraduated { get => graduateschoolGraduated; set => graduateschoolGraduated = value; }
     }
 }
