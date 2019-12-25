@@ -472,47 +472,6 @@ namespace HRIS.PL.manageEmployees
                 HRIS.PL.manageEmployees.frmADDEMPLOYEEEDUCBG frmADDEMPLOYEEEDUCBG = new manageEmployees.frmADDEMPLOYEEEDUCBG(EmployeeEL, FullnameEL, AddressEL, CitizenshipEL, InsuranceEL, this);/*, EmployeeEL, AddressEL, InsuranceEL, CitizenshipEL, FullnameEL*/
                 frmADDEMPLOYEEEDUCBG.ShowDialog();
 
-
-
-
-               /* MessageBox.Show(FullnameEL.Firstname);
-                MessageBox.Show(FullnameEL.Middlename);
-                MessageBox.Show(FullnameEL.Lastname);
-                MessageBox.Show(FullnameEL.Extname);
-                MessageBox.Show(EmployeeEL.Dateofbirth);
-                MessageBox.Show(EmployeeEL.Placeofbirth);
-                MessageBox.Show(EmployeeEL.Sex);
-                MessageBox.Show(EmployeeEL.Civilstatus);
-                MessageBox.Show(EmployeeEL.Heigthm);
-                MessageBox.Show(EmployeeEL.Weightkg);
-                MessageBox.Show(EmployeeEL.Bloodtype);
-                MessageBox.Show(EmployeeEL.Telnumber);
-                MessageBox.Show(EmployeeEL.Mobnumber);
-                MessageBox.Show(EmployeeEL.Emailaddress);
-                MessageBox.Show(InsuranceEL.Insuranceagencyid);
-                MessageBox.Show(InsuranceEL.Insurancepagibig);
-                MessageBox.Show(InsuranceEL.Insurancegsis);
-                MessageBox.Show(InsuranceEL.Insurancephilhealth);
-                MessageBox.Show(InsuranceEL.Insurancetin);
-                MessageBox.Show(InsuranceEL.Insurancesss);
-                MessageBox.Show(AddressEL.Houseblklotnumber);
-                MessageBox.Show(AddressEL.Street);
-                MessageBox.Show(AddressEL.Subdvillage);
-                MessageBox.Show(AddressEL.Brgy);
-                MessageBox.Show(AddressEL.Citymunicipality);
-                MessageBox.Show(AddressEL.Province);
-                MessageBox.Show(AddressEL.Zipcode.ToString());
-                MessageBox.Show(AddressEL.Houseblklotnumber2);
-                MessageBox.Show(AddressEL.Street2);
-                MessageBox.Show(AddressEL.Subdvillage2);
-                MessageBox.Show(AddressEL.Brgy2);
-                MessageBox.Show(AddressEL.Citymunicipality2);
-                MessageBox.Show(AddressEL.Province2);
-                MessageBox.Show(AddressEL.Zipcode2.ToString());
-                MessageBox.Show(CitizenshipEL.Citizenshiptype);
-                MessageBox.Show(CitizenshipEL.Citizenshipaquiredby);
-                MessageBox.Show(CitizenshipEL.Citizenshipdualitycountry);*/
-
             }
         }
     }

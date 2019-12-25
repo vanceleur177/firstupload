@@ -1054,6 +1054,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "HRIS.EL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HRIS.EL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HRIS.EL.dll": {}
+        }
       }
     }
   },
@@ -4362,10 +4372,16 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "HRIS.EL/1.0.0": {
+      "type": "project",
+      "path": "../HRIS.EL/HRIS.EL.csproj",
+      "msbuildProject": "../HRIS.EL/HRIS.EL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "HRIS.EL >= 1.0.0",
       "MySql.Data >= 8.0.18",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -4397,7 +4413,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\63921\\Desktop\\Repository for HRIS\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj": {
+              "projectPath": "C:\\Users\\63921\\Desktop\\Repository for HRIS\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
