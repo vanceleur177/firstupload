@@ -142,7 +142,28 @@
             this.CboxCivilStatusSingle = new System.Windows.Forms.CheckBox();
             this.btnCancel = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
             this.panel25 = new System.Windows.Forms.Panel();
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+>>>>>>> parent of d942c7d... Fourth Upload
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -339,8 +360,27 @@
             // dtpDateOfBirth
             // 
             this.dtpDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            this.dtpDateOfBirth.Location = new System.Drawing.Point(224, 23);
+=======
             this.dtpDateOfBirth.Location = new System.Drawing.Point(149, 15);
             this.dtpDateOfBirth.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+            this.dtpDateOfBirth.Location = new System.Drawing.Point(149, 15);
+            this.dtpDateOfBirth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.dtpDateOfBirth.Location = new System.Drawing.Point(149, 15);
+            this.dtpDateOfBirth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.dtpDateOfBirth.Location = new System.Drawing.Point(149, 15);
+            this.dtpDateOfBirth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
             this.dtpDateOfBirth.Name = "dtpDateOfBirth";
             this.dtpDateOfBirth.Size = new System.Drawing.Size(143, 20);
             this.dtpDateOfBirth.TabIndex = 13;
@@ -349,8 +389,27 @@
             // 
             this.panel22.Controls.Add(this.rbMale);
             this.panel22.Controls.Add(this.rbFemale);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            this.panel22.Location = new System.Drawing.Point(218, 94);
+=======
             this.panel22.Location = new System.Drawing.Point(145, 61);
             this.panel22.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+            this.panel22.Location = new System.Drawing.Point(145, 61);
+            this.panel22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.panel22.Location = new System.Drawing.Point(145, 61);
+            this.panel22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.panel22.Location = new System.Drawing.Point(145, 61);
+            this.panel22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(138, 24);
             this.panel22.TabIndex = 12;
@@ -358,8 +417,27 @@
             // rbMale
             // 
             this.rbMale.AutoSize = true;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            this.rbMale.Location = new System.Drawing.Point(16, 9);
+=======
             this.rbMale.Location = new System.Drawing.Point(11, 6);
             this.rbMale.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+            this.rbMale.Location = new System.Drawing.Point(11, 6);
+            this.rbMale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.rbMale.Location = new System.Drawing.Point(11, 6);
+            this.rbMale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.rbMale.Location = new System.Drawing.Point(11, 6);
+            this.rbMale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
             this.rbMale.Name = "rbMale";
             this.rbMale.Size = new System.Drawing.Size(48, 17);
             this.rbMale.TabIndex = 10;
@@ -371,8 +449,27 @@
             // rbFemale
             // 
             this.rbFemale.AutoSize = true;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            this.rbFemale.Location = new System.Drawing.Point(104, 9);
+=======
             this.rbFemale.Location = new System.Drawing.Point(69, 6);
             this.rbFemale.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+            this.rbFemale.Location = new System.Drawing.Point(69, 6);
+            this.rbFemale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.rbFemale.Location = new System.Drawing.Point(69, 6);
+            this.rbFemale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.rbFemale.Location = new System.Drawing.Point(69, 6);
+            this.rbFemale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
             this.rbFemale.Name = "rbFemale";
             this.rbFemale.Size = new System.Drawing.Size(59, 17);
             this.rbFemale.TabIndex = 11;
@@ -566,8 +663,27 @@
             // 
             this.panel24.Controls.Add(this.CboxDualCitizenship);
             this.panel24.Controls.Add(this.CboxFilipino);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            this.panel24.Location = new System.Drawing.Point(332, 8);
+=======
             this.panel24.Location = new System.Drawing.Point(221, 5);
             this.panel24.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+            this.panel24.Location = new System.Drawing.Point(221, 5);
+            this.panel24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.panel24.Location = new System.Drawing.Point(221, 5);
+            this.panel24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.panel24.Location = new System.Drawing.Point(221, 5);
+            this.panel24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(299, 33);
             this.panel24.TabIndex = 17;
@@ -598,8 +714,27 @@
             // 
             this.panel23.Controls.Add(this.CboxByNaturalization);
             this.panel23.Controls.Add(this.CboxByBirth);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            this.panel23.Location = new System.Drawing.Point(584, 62);
+=======
             this.panel23.Location = new System.Drawing.Point(389, 40);
             this.panel23.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+            this.panel23.Location = new System.Drawing.Point(389, 40);
+            this.panel23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.panel23.Location = new System.Drawing.Point(389, 40);
+            this.panel23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.panel23.Location = new System.Drawing.Point(389, 40);
+            this.panel23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> parent of d942c7d... Fourth Upload
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(174, 27);
             this.panel23.TabIndex = 16;
@@ -864,6 +999,9 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.SystemColors.Control;
+            this.panel10.Controls.Add(this.button3);
+            this.panel10.Controls.Add(this.button2);
+            this.panel10.Controls.Add(this.button1);
             this.panel10.Controls.Add(this.btnSave);
             this.panel10.Controls.Add(this.label29);
             this.panel10.Controls.Add(this.label24);
@@ -1232,6 +1370,11 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
             // panel25
             // 
             this.panel25.BackColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -1242,14 +1385,70 @@
             this.panel25.Size = new System.Drawing.Size(343, 687);
             this.panel25.TabIndex = 60;
             // 
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(28, 64);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(83, 53);
+            this.button1.TabIndex = 34;
+            this.button1.Text = "NEXT";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(36, 72);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(83, 53);
+            this.button2.TabIndex = 35;
+            this.button2.Text = "NEXT";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(44, 80);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(83, 53);
+            this.button3.TabIndex = 36;
+            this.button3.Text = "NEXT";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
             // frmADDEMPLOYEEINFO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(1405, 1050);
+=======
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(1370, 719);
             this.Controls.Add(this.panel25);
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+            this.ClientSize = new System.Drawing.Size(913, 487);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.ClientSize = new System.Drawing.Size(913, 487);
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.ClientSize = new System.Drawing.Size(913, 487);
+>>>>>>> parent of d942c7d... Fourth Upload
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.panel21);
             this.Controls.Add(this.panel20);
@@ -1429,6 +1628,27 @@
         private System.Windows.Forms.Panel panel24;
         private System.Windows.Forms.Panel panel23;
         private System.Windows.Forms.DateTimePicker dtpDateOfBirth;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
         private System.Windows.Forms.Panel panel25;
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+>>>>>>> parent of d942c7d... Fourth Upload
     }
 }

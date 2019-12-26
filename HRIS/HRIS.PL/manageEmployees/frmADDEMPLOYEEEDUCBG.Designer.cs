@@ -28,8 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            this.btnSave = new System.Windows.Forms.Button();
+=======
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmADDEMPLOYEEEDUCBG));
             this.button2 = new System.Windows.Forms.Button();
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+            this.button2 = new System.Windows.Forms.Button();
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.button2 = new System.Windows.Forms.Button();
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+            this.button2 = new System.Windows.Forms.Button();
+>>>>>>> parent of d942c7d... Fourth Upload
             this.button3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -110,12 +126,45 @@
             // 
             // button2
             // 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            this.btnSave.Location = new System.Drawing.Point(1124, 801);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(124, 82);
+            this.btnSave.TabIndex = 51;
+            this.btnSave.Text = "SAVE";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.BtnSave_Click);
+=======
             this.button2.Location = new System.Drawing.Point(826, 654);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(83, 53);
             this.button2.TabIndex = 51;
             this.button2.Text = "SAVE";
             this.button2.UseVisualStyleBackColor = true;
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
+            this.button2.Location = new System.Drawing.Point(1239, 1006);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(124, 82);
+            this.button2.TabIndex = 51;
+            this.button2.Text = "SAVE";
+            this.button2.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
             // 
             // button3
             // 

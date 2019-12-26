@@ -49,6 +49,20 @@ C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HR
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.csproj.CopyComplete
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.exe
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.pdb
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.DL.dll
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.DL.pdb
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\Google.Protobuf.dll
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\MySql.Data.dll
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\Renci.SshNet.dll
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\Google.Protobuf.xml
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\MySql.Data.xml
+C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\Renci.SshNet.xml
+=======
 C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.PL.exe.config
 C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.PL.exe
 C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.PL.pdb
@@ -73,3 +87,10 @@ C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Deb
 C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.editEmployee.frmEDITEMPLOYEEEDUCBG.resources
 C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.editEmployee.frmEDITEMPLOYEESINFO.resources
 C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.editEmployee.frmEDITFRONT.resources
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
