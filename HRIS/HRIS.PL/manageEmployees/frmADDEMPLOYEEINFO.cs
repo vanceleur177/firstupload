@@ -16,6 +16,7 @@ namespace HRIS.PL.manageEmployees
         HRIS.EL.manageEmployees.AddressEL AddressEL = new EL.manageEmployees.AddressEL();
         HRIS.EL.manageEmployees.FullnameEL FullnameEL = new EL.manageEmployees.FullnameEL();
         HRIS.EL.manageEmployees.CitizenshipEL CitizenshipEL = new EL.manageEmployees.CitizenshipEL();
+        HRIS.EL.manageEmployees.TypesofAddressEL typesofAddressEL = new EL.manageEmployees.TypesofAddressEL();
         //HRIS.EL.manageEmployees.CountryEL CountryEL = new EL.manageEmployees.CountryEL();
         //HRIS.EL.manageEmployees.ChildrenEL ChildrenEL = new EL.manageEmployees.ChildrenEL();
         //HRIS.EL.manageEmployees.CSEligibilityEL CSEligibilityEL = new EL.manageEmployees.CSEligibilityEL();

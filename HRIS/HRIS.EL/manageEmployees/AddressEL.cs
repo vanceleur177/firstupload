@@ -7,6 +7,8 @@ namespace HRIS.EL.manageEmployees
    public class AddressEL
     {
         int addressid;
+        int employeeid;
+        String typeofaddress;
            int countryid;
            int typeofaddressid;
            String houseblklotnumber;
@@ -44,5 +46,7 @@ namespace HRIS.EL.manageEmployees
         public string Citymunicipality2 { get => citymunicipality2; set => citymunicipality2 = value; }
         public string Province2 { get => province2; set => province2 = value; }
         public int Zipcode2 { get => zipcode2; set => zipcode2 = value; }
+        public int Employeeid { get => employeeid; set => employeeid = value; }
+        public string Typeofaddress { get => typeofaddress; set => typeofaddress = value; }
     }
 }

@@ -12,15 +12,21 @@ namespace HRIS.PL.manageEmployees
 {
     public partial class frmADDEMPLOYEEEDUCBG : Form
     {
-      HRIS.EL.manageEmployees.EducationalBGEL EducationalBGEL = new EL.manageEmployees.EducationalBGEL();
-       /* HRIS.EL.manageEmployees.EmployeeEL EmployeeEL = new EL.manageEmployees.EmployeeEL();
-        HRIS.EL.manageEmployees.AddressEL AddressEL = new EL.manageEmployees.AddressEL();
-         HRIS.EL.manageEmployees.FullnameEL FullnameEL = new EL.manageEmployees.FullnameEL();
-        HRIS.EL.manageEmployees.CitizenshipEL CitizenshipEL = new EL.manageEmployees.CitizenshipEL();
-        HRIS.EL.manageEmployees.InsuranceEL InsuranceEL = new EL.manageEmployees.InsuranceEL();*/
+        HRIS.EL.manageEmployees.EducationalBGEL EducationalBGEL = new EL.manageEmployees.EducationalBGEL();
+        /* HRIS.EL.manageEmployees.EmployeeEL EmployeeEL = new EL.manageEmployees.EmployeeEL();
+         HRIS.EL.manageEmployees.AddressEL AddressEL = new EL.manageEmployees.AddressEL();
+          HRIS.EL.manageEmployees.FullnameEL FullnameEL = new EL.manageEmployees.FullnameEL();
+         HRIS.EL.manageEmployees.CitizenshipEL CitizenshipEL = new EL.manageEmployees.CitizenshipEL();
+         HRIS.EL.manageEmployees.InsuranceEL InsuranceEL = new EL.manageEmployees.InsuranceEL();*/
+        HRIS.BL.manageEmployees.AddressBL addressBL = new BL.manageEmployees.AddressBL();
+        HRIS.BL.manageEmployees.FullnameBL FullnameBL = new BL.manageEmployees.FullnameBL();
+        HRIS.BL.manageEmployees.CitizenshipBL CitizenshipBL = new BL.manageEmployees.CitizenshipBL();
+        HRIS.BL.manageEmployees.InsuranceBL insuranceBL = new BL.manageEmployees.InsuranceBL();
+        HRIS.BL.manageEmployees.EmployeeBL EmployeeBL = new BL.manageEmployees.EmployeeBL();
+        HRIS.BL.manageEmployees.EducationalBGBL EducationalBGBL = new BL.manageEmployees.EducationalBGBL();
 
-
-     HRIS.EL.manageEmployees.EmployeeEL employeeEL;
+        HRIS.EL.manageEmployees.TypesofAddressEL TypesofAddressEL = new EL.manageEmployees.TypesofAddressEL();
+        HRIS.EL.manageEmployees.EmployeeEL employeeEL;
         HRIS.EL.manageEmployees.AddressEL addressEL;
         HRIS.EL.manageEmployees.FullnameEL fullnameEL;
         HRIS.EL.manageEmployees.CitizenshipEL citizenshipEL;
@@ -29,7 +35,7 @@ namespace HRIS.PL.manageEmployees
 
         HRIS.PL.manageEmployees.frmADDEMPLOYEEINFO frmADDEMPLOYEEINFO;
 
-        public frmADDEMPLOYEEEDUCBG(HRIS.EL.manageEmployees.EmployeeEL EmployeeEL, EL.manageEmployees.FullnameEL Fullname, EL.manageEmployees.AddressEL Address, EL.manageEmployees.CitizenshipEL Citizenship, EL.manageEmployees.InsuranceEL Insurance ,  frmADDEMPLOYEEINFO FrmADDEMPLOYEEINFO)
+        public frmADDEMPLOYEEEDUCBG(HRIS.EL.manageEmployees.EmployeeEL EmployeeEL, EL.manageEmployees.FullnameEL Fullname, EL.manageEmployees.AddressEL Address, EL.manageEmployees.CitizenshipEL Citizenship, EL.manageEmployees.InsuranceEL Insurance, frmADDEMPLOYEEINFO FrmADDEMPLOYEEINFO)
         {
             InitializeComponent();
             frmADDEMPLOYEEINFO = FrmADDEMPLOYEEINFO;
@@ -65,9 +71,9 @@ namespace HRIS.PL.manageEmployees
             if (txtElemUnits.Text.Equals(""))
             { EducationalBGEL.Elementaryunitearned = Convert.ToInt32("0"); }
             else EducationalBGEL.Elementaryunitearned = Convert.ToInt32(txtElemUnits.Text);
-             if (txtElemYear.Text.Equals(""))
+            if (txtElemYear.Text.Equals(""))
             { EducationalBGEL.ElementaryYeargraduated = "N/A"; }
-             else EducationalBGEL.ElementaryYeargraduated = txtElemYear.Text;
+            else EducationalBGEL.ElementaryYeargraduated = txtElemYear.Text;
             if (txtElemHonor.Text.Equals(""))
             { EducationalBGEL.ElementaryHonorrecieved = "N/A"; }
             else EducationalBGEL.ElementaryHonorrecieved = txtElemHonor.Text;
@@ -165,9 +171,9 @@ namespace HRIS.PL.manageEmployees
 
 
         }
-            private void FrmADDEMPLOYEEEDUCBG_Load(object sender, EventArgs e)
+        private void FrmADDEMPLOYEEEDUCBG_Load(object sender, EventArgs e)
         {
-            MessageBox.Show(fullnameEL.Firstname);
+            /*MessageBox.Show(fullnameEL.Firstname);
             MessageBox.Show(fullnameEL.Middlename);
             MessageBox.Show(fullnameEL.Lastname);
             MessageBox.Show(fullnameEL.Extname);
@@ -186,8 +192,8 @@ namespace HRIS.PL.manageEmployees
             MessageBox.Show(insuranceEL.Insurancegsis);
             MessageBox.Show(insuranceEL.Insurancephilhealth);
             MessageBox.Show(insuranceEL.Insurancetin);
-            MessageBox.Show(insuranceEL.Insurancesss);
-            MessageBox.Show(addressEL.Houseblklotnumber);
+            MessageBox.Show(insuranceEL.Insurancesss);*/
+           /* MessageBox.Show(addressEL.Houseblklotnumber);
             MessageBox.Show(addressEL.Street);
             MessageBox.Show(addressEL.Subdvillage);
             MessageBox.Show(addressEL.Brgy);
@@ -203,7 +209,64 @@ namespace HRIS.PL.manageEmployees
             MessageBox.Show(addressEL.Zipcode2.ToString());
             MessageBox.Show(citizenshipEL.Citizenshiptype);
             MessageBox.Show(citizenshipEL.Citizenshipaquiredby);
-            MessageBox.Show(citizenshipEL.Citizenshipdualitycountry);
+            MessageBox.Show(citizenshipEL.Citizenshipdualitycountry);*/
+        }
+
+        private void BtnSave_Click(object sender, EventArgs e)
+        {
+            long fullnameid;
+            long insuranceid;
+            long citizenshipid;
+            long employeeid;
+            long addressID;
+            
+            if ((fullnameid = FullnameBL.Insert(fullnameEL)) > 0)
+            {
+                employeeEL.Fullnameid = Convert.ToInt32(fullnameid);
+                MessageBox.Show(employeeEL.Fullnameid.ToString());
+
+            }
+
+           if ((citizenshipid = CitizenshipBL.Insert(citizenshipEL)) > 0)
+            {
+                employeeEL.Citizinshipid = Convert.ToInt32(citizenshipid);
+
+
+
+
+            }
+            if ((insuranceid = insuranceBL.Insert(insuranceEL)) > 0)
+            {
+                employeeEL.Insuranceid = Convert.ToInt32(insuranceid);
+
+
+            }
+
+            if ((employeeid = EmployeeBL.Insert(employeeEL)) > 0)
+            {
+                employeeEL.Employeeid = Convert.ToInt32(employeeid);
+                EducationalBGEL.Employeeid = Convert.ToInt32(employeeid);
+                addressEL.Employeeid = Convert.ToInt32(employeeid);
+
+
+            }
+
+            if (EducationalBGBL.Insertelem(EducationalBGEL) > 0)
+            {
+                EducationalBGBL.Insertsec(EducationalBGEL);
+                EducationalBGBL.Insertvoc(EducationalBGEL);
+                EducationalBGBL.Insertcoll(EducationalBGEL);
+                EducationalBGBL.Insertgrad(EducationalBGEL);
+
+            }
+
+            if ((addressID = addressBL.InsertResidential(addressEL)) > 0)
+            {
+                addressBL.InsertPermanent(addressEL);
+                addressEL.Typeofaddressid = Convert.ToInt32(addressID);
+            }
+
+
         }
     }
 }

@@ -4,7 +4,11 @@ using System.Text;
 
 namespace HRIS.DL.manageEmployees
 {
-    class CitizenshipDL
+   public class CitizenshipDL
     {
+        public long Insert(EL.manageEmployees.CitizenshipEL citizenship)
+        {
+            return Helper.executeNonQueryLong("insert into citizenship_tbl (citizenshiptype, citizenshipaquiredby, citizenshipdualitycountry) values ('" + citizenship.Citizenshiptype + "', '" + citizenship.Citizenshipdualitycountry + "', '" + citizenship.Citizenshipaquiredby + "')");
+        }
     }
 }

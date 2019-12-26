@@ -4,7 +4,12 @@ using System.Text;
 
 namespace HRIS.BL.manageEmployees
 {
-    class FullnameBL
+   public class FullnameBL
     {
+        HRIS.DL.manageEmployees.FullnameDL FullnameDL = new DL.manageEmployees.FullnameDL();
+        public long Insert(EL.manageEmployees.FullnameEL fullname)
+        {
+            return FullnameDL.Insert(fullname);
+        }
     }
 }
