@@ -32,11 +32,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnSave = new System.Windows.Forms.Button();
 =======
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmADDEMPLOYEEEDUCBG));
             this.button2 = new System.Windows.Forms.Button();
 >>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+            this.button2 = new System.Windows.Forms.Button();
+>>>>>>> parent of d942c7d... Fourth Upload
 =======
             this.button2 = new System.Windows.Forms.Button();
 >>>>>>> parent of d942c7d... Fourth Upload
@@ -130,6 +134,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnSave.Location = new System.Drawing.Point(1124, 801);
             this.btnSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSave.Name = "btnSave";
@@ -151,6 +156,8 @@
 >>>>>>> parent of d942c7d... Fourth Upload
 =======
 >>>>>>> parent of d942c7d... Fourth Upload
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
             this.button2.Location = new System.Drawing.Point(1239, 1006);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
@@ -160,6 +167,9 @@
             this.button2.UseVisualStyleBackColor = true;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d942c7d... Fourth Upload
+=======
 >>>>>>> parent of d942c7d... Fourth Upload
 =======
 >>>>>>> parent of d942c7d... Fourth Upload
