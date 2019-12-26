@@ -12,10 +12,4 @@
     <ProjectReference Include="..\HRIS.EL\HRIS.EL.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="MySql.Data">
-      <HintPath>..\..\..\..\POSSIRMAT\POS.PL\packages\MySql.Data.8.0.18\lib\netstandard2.1\MySql.Data.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

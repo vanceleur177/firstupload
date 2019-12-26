@@ -13,6 +13,3 @@ C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.DL\obj\Debug\ne
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.DL\obj\Debug\netstandard2.0\HRIS.DL.AssemblyInfo.cs
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.DL\obj\Debug\netstandard2.0\HRIS.DL.dll
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.DL\obj\Debug\netstandard2.0\HRIS.DL.pdb
-C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.DL\bin\Debug\netstandard2.0\HRIS.EL.dll
-C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.DL\bin\Debug\netstandard2.0\HRIS.EL.pdb
-C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.DL\obj\Debug\netstandard2.0\HRIS.DL.csproj.CopyComplete

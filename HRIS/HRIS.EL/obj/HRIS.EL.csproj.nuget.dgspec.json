@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\63921\\Desktop\\Repository for HRIS\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj": {}
+    "C:\\Users\\lev\\Desktop\\M-InfoTech\\PROJECTHRIS-SAD\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\63921\\Desktop\\Repository for HRIS\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj": {
+    "C:\\Users\\lev\\Desktop\\M-InfoTech\\PROJECTHRIS-SAD\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\63921\\Desktop\\Repository for HRIS\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj",
+        "projectUniqueName": "C:\\Users\\lev\\Desktop\\M-InfoTech\\PROJECTHRIS-SAD\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj",
         "projectName": "HRIS.EL",
-        "projectPath": "C:\\Users\\63921\\Desktop\\Repository for HRIS\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj",
-        "packagesPath": "C:\\Users\\63921\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\63921\\Desktop\\Repository for HRIS\\firstupload\\HRIS\\HRIS.EL\\obj\\",
+        "projectPath": "C:\\Users\\lev\\Desktop\\M-InfoTech\\PROJECTHRIS-SAD\\firstupload\\HRIS\\HRIS.EL\\HRIS.EL.csproj",
+        "packagesPath": "C:\\Users\\lev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lev\\Desktop\\M-InfoTech\\PROJECTHRIS-SAD\\firstupload\\HRIS\\HRIS.EL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\63921\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\lev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -39,10 +39,6 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[8.0.18, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -51,10 +47,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

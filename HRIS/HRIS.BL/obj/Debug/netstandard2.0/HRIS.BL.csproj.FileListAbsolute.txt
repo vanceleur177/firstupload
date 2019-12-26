@@ -17,6 +17,7 @@ C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\obj\Debug\ne
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.dll
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\bin\Debug\netstandard2.0\HRIS.DL.dll
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\bin\Debug\netstandard2.0\HRIS.EL.dll
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.BL\bin\Debug\netstandard2.0\HRIS.DL.pdb
@@ -32,3 +33,5 @@ C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.BL\obj\Deb
 C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.dll
 C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.BL\obj\Debug\netstandard2.0\HRIS.BL.pdb
 >>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
+=======
+>>>>>>> parent of d942c7d... Fourth Upload
