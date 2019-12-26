@@ -16,3 +16,11 @@ C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.EL\obj\Debug\ne
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.EL\obj\Debug\netstandard2.0\HRIS.EL.dll
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.EL\obj\Debug\netstandard2.0\HRIS.EL.pdb
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.EL\obj\Debug\netstandard2.0\HRIS.EL.csprojAssemblyReference.cache
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.EL\bin\Debug\netstandard2.0\HRIS.EL.deps.json
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.EL\bin\Debug\netstandard2.0\HRIS.EL.dll
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.EL\bin\Debug\netstandard2.0\HRIS.EL.pdb
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.EL\obj\Debug\netstandard2.0\HRIS.EL.csprojAssemblyReference.cache
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.EL\obj\Debug\netstandard2.0\HRIS.EL.AssemblyInfoInputs.cache
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.EL\obj\Debug\netstandard2.0\HRIS.EL.AssemblyInfo.cs
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.EL\obj\Debug\netstandard2.0\HRIS.EL.dll
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.EL\obj\Debug\netstandard2.0\HRIS.EL.pdb

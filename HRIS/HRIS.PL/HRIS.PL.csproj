@@ -66,6 +66,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="editEmployee\frmEDITEMPLOYEEEDUCBG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editEmployee\frmEDITEMPLOYEEEDUCBG.Designer.cs">
+      <DependentUpon>frmEDITEMPLOYEEEDUCBG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editEmployee\frmEDITFRONT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editEmployee\frmEDITFRONT.Designer.cs">
+      <DependentUpon>frmEDITFRONT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editEmployee\frmEDITEMPLOYEESINFO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editEmployee\frmEDITEMPLOYEESINFO.Designer.cs">
+      <DependentUpon>frmEDITEMPLOYEESINFO.cs</DependentUpon>
+    </Compile>
     <Compile Include="FRMFront.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +134,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="editEmployee\frmEDITEMPLOYEEEDUCBG.resx">
+      <DependentUpon>frmEDITEMPLOYEEEDUCBG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editEmployee\frmEDITEMPLOYEESINFO.resx">
+      <DependentUpon>frmEDITEMPLOYEESINFO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editEmployee\frmEDITFRONT.resx">
+      <DependentUpon>frmEDITFRONT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMFront.resx">
+      <DependentUpon>FRMFront.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="manageEmployees\frmADDEMPLOYEECSELIGIBILITY.resx">
       <DependentUpon>frmADDEMPLOYEECSELIGIBILITY.cs</DependentUpon>
     </EmbeddedResource>

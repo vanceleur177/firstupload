@@ -49,6 +49,7 @@ C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HR
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.csproj.CopyComplete
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.exe
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.pdb
+<<<<<<< HEAD
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.DL.dll
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.DL.pdb
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\BouncyCastle.Crypto.dll
@@ -58,3 +59,29 @@ C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\Re
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\Google.Protobuf.xml
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\MySql.Data.xml
 C:\Users\63921\Desktop\Repository for HRIS\firstupload\HRIS\HRIS.PL\bin\Debug\Renci.SshNet.xml
+=======
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.PL.exe.config
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.PL.exe
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.PL.pdb
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.BL.dll
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.EL.dll
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.BL.pdb
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\bin\Debug\HRIS.EL.pdb
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.csprojAssemblyReference.cache
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.FRMFront.resources
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDEMPLOYEECSELIGIBILITY.resources
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDEMPLOYEEEDUCBG.resources
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDEMPLOYEEFAMILYBG.resources
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDEMPLOYEEINFO.resources
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDEMPLOYEEWORKEXPERIENCE.resources
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDOTHERINFORMATION.resources
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.manageEmployees.frmADDVOLUNTARYWORK.resources
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.Properties.Resources.resources
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.csproj.GenerateResource.cache
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.csproj.CopyComplete
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.exe
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.pdb
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.editEmployee.frmEDITEMPLOYEEEDUCBG.resources
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.editEmployee.frmEDITEMPLOYEESINFO.resources
+C:\Users\lev\Desktop\M-InfoTech\PROJECTHRIS-SAD\firstupload\HRIS\HRIS.PL\obj\Debug\HRIS.PL.editEmployee.frmEDITFRONT.resources
+>>>>>>> c33ae112772511abe11f4ba556f66f7e5f427ba7
