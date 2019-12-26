@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmADDEMPLOYEEFAMILYBG));
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -38,18 +39,18 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -61,28 +62,23 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.textBox13 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker7 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker8 = new System.Windows.Forms.DateTimePicker();
@@ -93,12 +89,18 @@
             this.textBox24 = new System.Windows.Forms.TextBox();
             this.textBox25 = new System.Windows.Forms.TextBox();
             this.textBox26 = new System.Windows.Forms.TextBox();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
+            this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.panel13 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -109,8 +111,8 @@
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
-            this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.SuspendLayout();
             // 
             // button2
@@ -204,6 +206,13 @@
             this.panel1.Size = new System.Drawing.Size(911, 89);
             this.panel1.TabIndex = 34;
             // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(758, 55);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(150, 20);
+            this.textBox4.TabIndex = 7;
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -212,13 +221,6 @@
             this.label4.Size = new System.Drawing.Size(149, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "NAME EXTENSION (JR.,SR.)";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(758, 55);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(150, 20);
-            this.textBox4.TabIndex = 7;
             // 
             // panel3
             // 
@@ -232,6 +234,55 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(911, 117);
             this.panel3.TabIndex = 35;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(4, 89);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(100, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "TELLEPHONE NO.";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.Control;
+            this.panel4.Controls.Add(this.textBox9);
+            this.panel4.Controls.Add(this.textBox6);
+            this.panel4.Controls.Add(this.textBox7);
+            this.panel4.Controls.Add(this.textBox8);
+            this.panel4.Location = new System.Drawing.Point(176, 5);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(728, 105);
+            this.panel4.TabIndex = 7;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(3, 81);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(722, 20);
+            this.textBox9.TabIndex = 3;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(3, 55);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(722, 20);
+            this.textBox6.TabIndex = 2;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(3, 31);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(722, 20);
+            this.textBox7.TabIndex = 1;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(3, 7);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(722, 20);
+            this.textBox8.TabIndex = 0;
             // 
             // label5
             // 
@@ -259,55 +310,6 @@
             this.label8.Size = new System.Drawing.Size(77, 13);
             this.label8.TabIndex = 0;
             this.label8.Text = "OCCUPATION";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.Control;
-            this.panel4.Controls.Add(this.textBox9);
-            this.panel4.Controls.Add(this.textBox6);
-            this.panel4.Controls.Add(this.textBox7);
-            this.panel4.Controls.Add(this.textBox8);
-            this.panel4.Location = new System.Drawing.Point(176, 5);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(728, 105);
-            this.panel4.TabIndex = 7;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(3, 55);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(722, 20);
-            this.textBox6.TabIndex = 2;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(3, 31);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(722, 20);
-            this.textBox7.TabIndex = 1;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(3, 7);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(722, 20);
-            this.textBox8.TabIndex = 0;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(3, 81);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(722, 20);
-            this.textBox9.TabIndex = 3;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(4, 89);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 13);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "TELLEPHONE NO.";
             // 
             // panel5
             // 
@@ -411,6 +413,15 @@
             this.panel7.Size = new System.Drawing.Size(911, 113);
             this.panel7.TabIndex = 35;
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(4, 37);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(61, 13);
+            this.label14.TabIndex = 7;
+            this.label14.Text = "SURNAME";
+            // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.SystemColors.Control;
@@ -422,6 +433,13 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(578, 105);
             this.panel8.TabIndex = 6;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(3, 81);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(569, 20);
+            this.textBox13.TabIndex = 3;
             // 
             // textBox14
             // 
@@ -471,22 +489,6 @@
             this.label16.TabIndex = 0;
             this.label16.Text = "MOTHER\'S MAIDEN NAME";
             // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(3, 81);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(569, 20);
-            this.textBox13.TabIndex = 3;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(4, 37);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(61, 13);
-            this.label14.TabIndex = 7;
-            this.label14.Text = "SURNAME";
-            // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -527,89 +529,59 @@
             this.panel10.Size = new System.Drawing.Size(894, 172);
             this.panel10.TabIndex = 6;
             // 
-            // textBox18
+            // panel12
             // 
-            this.textBox18.Location = new System.Drawing.Point(3, 69);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(311, 20);
-            this.textBox18.TabIndex = 2;
+            this.panel12.Controls.Add(this.label19);
+            this.panel12.Controls.Add(this.label21);
+            this.panel12.Location = new System.Drawing.Point(449, 4);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(438, 33);
+            this.panel12.TabIndex = 22;
             // 
-            // textBox19
+            // label19
             // 
-            this.textBox19.Location = new System.Drawing.Point(3, 43);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(311, 20);
-            this.textBox19.TabIndex = 1;
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(354, 2);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(66, 26);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "Date of Birth\r\n(mm/dd/yy)";
             // 
-            // label20
+            // label21
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(4, 13);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(238, 13);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "NAME OF CHILDREN (Write fullname and list all)\r\n";
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(132, 9);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(49, 13);
+            this.label21.TabIndex = 10;
+            this.label21.Text = "Fullname";
             // 
-            // textBox17
+            // panel11
             // 
-            this.textBox17.Location = new System.Drawing.Point(3, 121);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(311, 20);
-            this.textBox17.TabIndex = 5;
+            this.panel11.Controls.Add(this.label18);
+            this.panel11.Controls.Add(this.label17);
+            this.panel11.Location = new System.Drawing.Point(4, 4);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(438, 33);
+            this.panel11.TabIndex = 21;
             // 
-            // textBox21
+            // label18
             // 
-            this.textBox21.Location = new System.Drawing.Point(3, 95);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(311, 20);
-            this.textBox21.TabIndex = 4;
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(344, 2);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(66, 26);
+            this.label18.TabIndex = 9;
+            this.label18.Text = "Date of Birth\r\n(mm/dd/yy)";
             // 
-            // textBox22
+            // label17
             // 
-            this.textBox22.Location = new System.Drawing.Point(3, 147);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(311, 20);
-            this.textBox22.TabIndex = 3;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(339, 43);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(91, 20);
-            this.dateTimePicker1.TabIndex = 6;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(339, 69);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(91, 20);
-            this.dateTimePicker2.TabIndex = 7;
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker3.Location = new System.Drawing.Point(339, 95);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(91, 20);
-            this.dateTimePicker3.TabIndex = 8;
-            // 
-            // dateTimePicker4
-            // 
-            this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker4.Location = new System.Drawing.Point(339, 121);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(91, 20);
-            this.dateTimePicker4.TabIndex = 9;
-            // 
-            // dateTimePicker5
-            // 
-            this.dateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker5.Location = new System.Drawing.Point(339, 147);
-            this.dateTimePicker5.Name = "dateTimePicker5";
-            this.dateTimePicker5.Size = new System.Drawing.Size(91, 20);
-            this.dateTimePicker5.TabIndex = 10;
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(122, 9);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(49, 13);
+            this.label17.TabIndex = 8;
+            this.label17.Text = "Fullname";
             // 
             // dateTimePicker6
             // 
@@ -686,65 +658,106 @@
             this.textBox26.Size = new System.Drawing.Size(311, 20);
             this.textBox26.TabIndex = 11;
             // 
-            // panel11
+            // dateTimePicker5
             // 
-            this.panel11.Controls.Add(this.label18);
-            this.panel11.Controls.Add(this.label17);
-            this.panel11.Location = new System.Drawing.Point(4, 4);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(438, 33);
-            this.panel11.TabIndex = 21;
+            this.dateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker5.Location = new System.Drawing.Point(339, 147);
+            this.dateTimePicker5.Name = "dateTimePicker5";
+            this.dateTimePicker5.Size = new System.Drawing.Size(91, 20);
+            this.dateTimePicker5.TabIndex = 10;
             // 
-            // panel12
+            // dateTimePicker4
             // 
-            this.panel12.Controls.Add(this.label19);
-            this.panel12.Controls.Add(this.label21);
-            this.panel12.Location = new System.Drawing.Point(449, 4);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(438, 33);
-            this.panel12.TabIndex = 22;
+            this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker4.Location = new System.Drawing.Point(339, 121);
+            this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.Size = new System.Drawing.Size(91, 20);
+            this.dateTimePicker4.TabIndex = 9;
             // 
-            // label17
+            // dateTimePicker3
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(122, 9);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(49, 13);
-            this.label17.TabIndex = 8;
-            this.label17.Text = "Fullname";
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker3.Location = new System.Drawing.Point(339, 95);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(91, 20);
+            this.dateTimePicker3.TabIndex = 8;
             // 
-            // label18
+            // dateTimePicker2
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(344, 2);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(66, 26);
-            this.label18.TabIndex = 9;
-            this.label18.Text = "Date of Birth\r\n(mm/dd/yy)";
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker2.Location = new System.Drawing.Point(339, 69);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(91, 20);
+            this.dateTimePicker2.TabIndex = 7;
             // 
-            // label19
+            // dateTimePicker1
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(354, 2);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(66, 26);
-            this.label19.TabIndex = 11;
-            this.label19.Text = "Date of Birth\r\n(mm/dd/yy)";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(339, 43);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(91, 20);
+            this.dateTimePicker1.TabIndex = 6;
             // 
-            // label21
+            // textBox17
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(132, 9);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(49, 13);
-            this.label21.TabIndex = 10;
-            this.label21.Text = "Fullname";
+            this.textBox17.Location = new System.Drawing.Point(3, 121);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(311, 20);
+            this.textBox17.TabIndex = 5;
+            // 
+            // textBox21
+            // 
+            this.textBox21.Location = new System.Drawing.Point(3, 95);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(311, 20);
+            this.textBox21.TabIndex = 4;
+            // 
+            // textBox22
+            // 
+            this.textBox22.Location = new System.Drawing.Point(3, 147);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(311, 20);
+            this.textBox22.TabIndex = 3;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(3, 69);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(311, 20);
+            this.textBox18.TabIndex = 2;
+            // 
+            // textBox19
+            // 
+            this.textBox19.Location = new System.Drawing.Point(3, 43);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(311, 20);
+            this.textBox19.TabIndex = 1;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(4, 13);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(238, 13);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "NAME OF CHILDREN (Write fullname and list all)\r\n";
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel13.BackgroundImage")));
+            this.panel13.Location = new System.Drawing.Point(946, 12);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(342, 687);
+            this.panel13.TabIndex = 70;
             // 
             // frmADDEMPLOYEEFAMILYBG
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(935, 719);
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.ClientSize = new System.Drawing.Size(1370, 719);
+            this.Controls.Add(this.panel13);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel5);
@@ -774,10 +787,10 @@
             this.panel9.PerformLayout();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -854,5 +867,6 @@
         private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.TextBox textBox21;
         private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.Panel panel13;
     }
 }

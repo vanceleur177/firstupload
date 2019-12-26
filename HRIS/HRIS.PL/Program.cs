@@ -16,7 +16,7 @@ namespace HRIS.PL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HRIS.PL.FRMFront());
+            Application.Run(new HRIS.PL.manageEmployees.frmADDEMPLOYEEINFO());
         }
     }
 }

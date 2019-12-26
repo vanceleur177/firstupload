@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmEDITEMPLOYEESINFO));
             this.txt2SubdivisionVillage = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
@@ -141,6 +142,7 @@
             this.txtSSSidNum = new System.Windows.Forms.TextBox();
             this.txtPHILHEALTHidNum = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panel25 = new System.Windows.Forms.Panel();
             this.panel16.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel17.SuspendLayout();
@@ -1215,11 +1217,22 @@
             this.panel5.Size = new System.Drawing.Size(304, 158);
             this.panel5.TabIndex = 36;
             // 
+            // panel25
+            // 
+            this.panel25.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel25.BackgroundImage")));
+            this.panel25.Location = new System.Drawing.Point(941, 12);
+            this.panel25.Name = "panel25";
+            this.panel25.Size = new System.Drawing.Size(342, 687);
+            this.panel25.TabIndex = 60;
+            // 
             // frmEDITEMPLOYEESINFO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1010, 719);
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.ClientSize = new System.Drawing.Size(1370, 719);
+            this.Controls.Add(this.panel25);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.panel14);
             this.Controls.Add(this.btnCancel);
@@ -1398,5 +1411,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Panel panel25;
     }
 }
